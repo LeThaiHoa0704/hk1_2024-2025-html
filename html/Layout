@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        .wrapper {
+            width: 1089px;
+            height: 800px;
+            margin: 0 auto;
+            background-color: aliceblue;
+            border: 1px solid brown;
+        }
+        
+        .top-menu {
+            width: 1089px;
+            height: 60px;
+            margin: 0 auto;
+            background-color: rgb(147, 183, 214);
+            text-align: center;
+            line-height: 60px;
+        }
+        
+        header {
+            width: 1089px;
+            height: 150px;
+            background-color: rgb(228, 240, 120);
+            text-align: center;
+            line-height: 150px;
+        }
+        
+        .content {
+            width: 1089px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid brown;
+            display: flex;
+        }
+        
+        .menu-left {
+            width: 40%;
+            height: 500px;
+            background-color: aquamarine;
+            float: left;
+        }
+        
+        .content-l {
+            width: 40%;
+            height: 500px;
+            background-color: rgb(160, 170, 167);
+        }
+        
+        .content-r {
+            width: 60%;
+            height: 500px;
+            background-color: rgb(219, 27, 49);
+        }
+        
+        .menu-left {
+            width: 200px;
+            height: 500px;
+            background-color: rgb(236, 39, 101);
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top-menu">menu</div>
+        <header>đầu trang</header>
+        <div class="content">
+            <div class="menu-left">menu trai</div>
+            <div class="content-l">nội dung trái</div>
+            <div class="content-r">nội dung phải</div>
+        </div>
+        <footer>Chân dung</footer>
+    </div>
+</body>
+
+</html>
